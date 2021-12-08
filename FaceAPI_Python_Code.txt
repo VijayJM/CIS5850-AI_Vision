@@ -1,0 +1,35 @@
+FACE API:
+*********
+EndPoint: https://5850-project-faceapi.cognitiveservices.azure.com/
+Key: 1e6481c0c2e443a9b5de26a4e8c53597
+
+FORM RECOGNIZER Api:
+********************
+EndPoint: https://5850-project-formrecognizer.cognitiveservices.azure.com/
+Key: b942bbc0bc474961ac5469e30236da03
+
+======================================================================================================
+
+--Download the Python project from GitBash:
+
+git clone https://github.com/MicrosoftLearning/AI-900-AIFundamentals ai-900
+
+--Open the Editor in Powershell
+code .
+
+-- Copy the "Face API" Endpoint and Key in the Python Code "Find-Faces.ps1". Save and Close the Editor
+
+--Execute the Find Faces Python Code and analyze Images
+cd ai-900
+
+./find-faces.ps1 store-camera-1.jpg
+
+-- Analyze the following images using the Vision Face API
+./find-faces.ps1 store-camera-2.jpg
+./find-faces.ps1 store-camera-3.jpg
+
+
+-- Copy the "Form Recognizer API" Endpoint and Key in the Python Code "Form-Recognizer.ps1". Save and Close the Editor
+--Execute the Form Recognizer Python Code and analyze a Receipt 
+cd ai-900
+./form-recognizer.ps1
